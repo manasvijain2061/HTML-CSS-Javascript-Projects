@@ -1,0 +1,458 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo {
+  color: #f9a908;
+  text-align: center;
+}
+
+.logo p {
+  font-weight: bolder;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+  align-items: center;
+}
+
+.search {
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 800px;
+  padding-left: 1em;
+}
+
+.search i {
+  font-size: 0.85em;
+}
+
+#search-id {
+  width: 700px;
+  height: 1.5em;
+  padding: 5px;
+  font-size: 0.85em;
+  align-items: center;
+  border: none;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 400px;
+  font-size: 1.35rem;
+}
+
+.nav-items div {
+  font-size: 1.35rem;
+}
+
+.nav-items div i {
+  font-size: 1.35rem;
+  margin-right: 0.2em;
+}
+
+/* navigation end */
+/* 2nd box start */
+#check {
+  display: none;
+}
+
+.container {
+  border: 2px solid black;
+  width: 200px;
+  position: fixed;
+  background-color: white;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  /* padding-left: 10em; */
+  left: -210px;
+  transition: all 0.3s linear;
+}
+
+.container div {
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  /* margin: 0px 1.2em 0px; */
+}
+
+.container div:hover {
+  color: #f77f00;
+  cursor: pointer;
+}
+
+#check:checked ~ .container {
+  left: 0;
+}
+
+/* 2nd box end */
+/* header */
+header {
+  border: 2px solid white;
+  /* padding: 1.5em; */
+  margin: 10px;
+}
+
+/* header:hover {
+  opacity: 0.5;
+} */
+
+/*header end */
+/*Flat 15% OFF on Royal Canin | Shop Now*/
+.container1 {
+  padding: 9px;
+  text-align: center;
+  height: 0.85rem;
+  color: white;
+  background-color: black;
+}
+/*Flat 15% OFF on Royal Canin | Shop Now*/
+
+/*Trending Categotries*/
+.trend {
+  margin-left: 2em;
+}
+
+.trend i {
+  margin-right: 0.2em;
+}
+
+.card-container {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.card {
+  width: 220px;
+  margin: 1em;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+/*Trending Categotries End*/
+
+/* registration form start */
+
+.form-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  border: 2px solid black;
+  background-color: #eae2b7;
+  margin-bottom: 1rem;
+}
+
+form {
+  border: none;
+  margin: 1.2rem;
+}
+
+.login {
+  text-align: center;
+}
+
+.login input[type="text"] {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+}
+.login input[type="password"] {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+}
+
+.option {
+  margin-top: 1.2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.option label {
+  font-weight: bolder;
+}
+
+.checkbox {
+  margin-top: 1.2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.button {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+.button button {
+  font-size: 1.5rem;
+  padding: 0em 1em 0em;
+  background-color: #f77f00;
+  border-radius: 1em;
+}
+
+.email {
+  margin-top: 1.5em;
+}
+
+.email-box {
+  margin-top: 1.2rem;
+  border: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f77f00;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.email-box input[type="text"] {
+  font-size: 1rem;
+  width: 80%;
+  margin-right: 3rem;
+  border: none;
+  border-radius: 1rem;
+  padding-left: 0.85rem;
+}
+
+.email-box i {
+  width: 20%;
+}
+
+.email p {
+  border: none;
+  width: 355px;
+  margin-top: 1.5em;
+}
+/* registration form end */
+
+/* Grid Container start */
+
+.grid-cotainer {
+  width: 99%;
+  border: none;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto auto;
+}
+
+.card1 {
+  width: 300px;
+  margin: 1rem 1rem;
+  border: 2px solid black;
+  border-radius: 1.7rem;
+}
+
+.card1 img {
+  width: 100%;
+  border-radius: 1.7rem;
+}
+
+.desc1 {
+  border: none;
+  padding: 1rem 1rem;
+}
+
+.desc1 .price {
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 4rem 0 1rem;
+  color: #044b9a;
+}
+
+.size {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.size h4 {
+  border: 1px solid black;
+  padding: 1rem;
+  color: white;
+  background-color: black;
+}
+
+.desc1 button {
+  margin: 1rem 0 1rem;
+  width: 270px;
+  height: 45px;
+  border-radius: 1rem;
+  color: white;
+  background-color: #f77f00;
+}
+
+/* Grid Container end */
+
+/* responsive for flex box start */
+@media (max-width: 375px) {
+  * {
+    flex-wrap: wrap;
+  }
+}
+/* responsive for flex box  */
+
+.grid-container1 div {
+  background-color: wheat;
+  font-size: 1.5rem;
+}
+
+.grid-container1 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  margin: 1rem;
+}
+
+.header {
+  grid-column: 1 / span 12;
+}
+
+.sidebar {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 10;
+}
+
+.navigation {
+  grid-column: 4 / span 6;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ads {
+  grid-column: 10 / span 3;
+  grid-row: 2 / span 10;
+}
+
+.main {
+  grid-column: 4 / span 6;
+  grid-row: 3 / span 9;
+}
+
+.footer {
+  grid-column: 1 / span 12;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 3rem;
+}
+
+.grid-container1 div img {
+  width: 100%;
+  height: 100%;
+}
+
+/* responsive for grid template start */
+@media (max-width: 720px) {
+  .header {
+    grid-column: 1 / span 12;
+  }
+
+  .navigation {
+    grid-column: 1 / span 12;
+    grid-row: 2;
+  }
+
+  .sidebar {
+    grid-column: 1 / span 3;
+    grid-row: 3 / span 9;
+  }
+
+  .main {
+    grid-column: 4 / span 9;
+    grid-row: 3 / span 9;
+  }
+
+  .ads {
+    grid-column: 1 / span 3;
+    grid-row: 12;
+  }
+
+  .footer {
+    grid-column: 4 / span 9;
+    grid-row: 12;
+  }
+}
+/* responsive for grid template  */
+
+.grid-container2 {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  margin: 2.5rem;
+  background: red;
+  border: 2px solid black;
+}
+
+.grid-container2 .item img {
+  width: 100%;
+  height: 100%;
+}
+
+/* footers start */
+.footer1 {
+  border: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer1 div {
+  border: none;
+  text-align: left;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  padding: 1rem;
+}
+
+.footer2 div i {
+  border: 2px solid black;
+  border-radius: 1rem;
+  font-size: 2rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  color: #f77f00;
+}
+
+.footer2 div i:hover {
+  transform: scale(1.1);
+}
+
+/* footers */
